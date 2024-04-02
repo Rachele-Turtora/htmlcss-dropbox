@@ -18,12 +18,12 @@
 }
 
 .lg-container{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .sm-container{
-    max-width: 990px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -76,6 +76,10 @@
     text-align: right;
 }
 
+.ps-relative{
+    position: relative;
+}
+
 .height-70{
     height: 70px;
 }
@@ -120,6 +124,14 @@
     margin: 10px 0;
 }
 
+.mg-30{
+    margin: 30px 0;
+}
+
+.mg-top-40{
+    margin-top: 40px;
+}
+
 .pd-25{
     padding: 25px;
 }
@@ -152,16 +164,23 @@
     background-color: black;
 }
 
+.gray{
+    color: gray;
+}
+
 /* END UTILITY CLASSES */
 
 ul{
     list-style-type: none;
 }
 
+li{
+    font-size: 20px;
+}
+
 .header-list li{
     display: inline;
     padding: 0 22px;
-    font-size: 20px;
 }
 
 .logo{
@@ -186,7 +205,7 @@ h1{
     padding: 30px 0;
 }
 
-p{
+p, span{
     font-size: 20px;
     line-height: 28px;
 }
@@ -201,4 +220,95 @@ img{
 
 .fa-arrow-down{
     font-size: 44px;
+}
+
+h2{
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+label{
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.radio{
+    padding: 50px 0;
+}
+
+.card{
+    border: 1px solid gray;
+}
+
+.card-top, .card-bottom{
+    padding: 25px;
+}
+
+.right{
+    margin-right: 20px;
+}
+
+.middle{
+    margin: 0 10px;
+}
+
+.left{
+    margin-left: 20px;
+}
+
+.right, .middle, .left{
+    min-height: 1100px;
+}
+
+.card-top p{
+    text-align: center;
+    padding: 10px 0;
+}
+
+hr{
+    border-color: gray;
+}
+
+h4{
+    font-size: 30px;
+}
+
+.cost{
+    padding: 15px 0 10px 0;
+}
+
+.card-bottom ul{
+    padding: 30px 0;
+}
+
+.card-bottom ul li{
+    padding: 10px 0;
+}
+
+.card-bottom button{
+    display: block;
+}
+
+#link{
+    display: inline-block;
+    padding: 30px 0 40px 0;
+}
+
+.small{
+    width: 30%;
+}
+
+h6{
+    margin-top: 50px;
+    font-size: 26px;
+}
+
+.fa-check{
+    color: blue;
+}
+
+.ps-relative button{
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
