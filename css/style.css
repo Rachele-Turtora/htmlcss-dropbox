@@ -7,9 +7,14 @@
 
 /* LAYOUT CLASSES */
 
+.background{
+    width: 100%;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .lg-container{
@@ -18,7 +23,7 @@
 }
 
 .sm-container{
-    max-width: 1000px;
+    max-width: 990px;
     margin: 0 auto;
 }
 
@@ -32,6 +37,10 @@
 
 .col-60{
     width: 60%;
+}
+
+.col-100{
+    width: 100%;
 }
 
 /* END LAYOUT CLASSES */
@@ -55,8 +64,16 @@
     height: 50px;
 }
 
-.mg-20{
-    margin: 20px;
+.height-200{
+    height: 200px;
+}
+
+.height-300{
+    height: 300px;
+}
+
+.mg-10{
+    margin: 10px;
 }
 
 .bg-red{
