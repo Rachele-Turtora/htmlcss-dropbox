@@ -64,6 +64,18 @@
     justify-content: space-between;
 }
 
+.justify-right{
+    justify-content: right;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
 .height-70{
     height: 70px;
 }
@@ -108,6 +120,10 @@
     margin: 10px 0;
 }
 
+.pd-25{
+    padding: 25px;
+}
+
 .bg-red{
     background-color: red;
 }
@@ -137,3 +153,29 @@
 }
 
 /* END UTILITY CLASSES */
+
+ul{
+    list-style-type: none;
+}
+
+.header-list li{
+    display: inline;
+    padding: 0 22px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 200px;
+    margin-right: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+}
+
+.btn-blue{
+    background-color: rgb(57, 57, 255);
+    color: white;
+}
