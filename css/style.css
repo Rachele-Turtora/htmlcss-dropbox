@@ -179,3 +179,26 @@ ul{
     background-color: rgb(57, 57, 255);
     color: white;
 }
+
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    padding: 30px 0;
+}
+
+p{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.p-jumbo, .btn-jumbo{
+    margin-bottom: 35px;
+}
+
+img{
+    width: 100%;
+}
+
+.fa-arrow-down{
+    font-size: 44px;
+}
