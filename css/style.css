@@ -132,8 +132,16 @@
     margin-top: 40px;
 }
 
+.mg-top-100{
+    margin-top: 100px;
+}
+
 .pd-25{
     padding: 25px;
+}
+
+.pd-50{
+    padding: 50px;
 }
 
 .bg-red{
@@ -199,6 +207,11 @@ li{
     color: white;
 }
 
+.btn-white{
+    color: black;
+    border: 1px solid black;
+}
+
 h1{
     font-size: 60px;
     font-weight: 800;
@@ -210,7 +223,7 @@ p, span{
     line-height: 28px;
 }
 
-.p-jumbo, .btn-jumbo{
+.p-sec-40, .btn-sec-40{
     margin-bottom: 35px;
 }
 
@@ -311,4 +324,8 @@ h6{
     position: absolute;
     top: 30px;
     right: 30px;
+}
+
+.partner-title{
+    margin-bottom: 30px;
 }
