@@ -209,6 +209,10 @@
     padding-bottom: 100px;
 }
 
+.fs-20{
+    font-size: 20px;
+}
+
 .bg-red{
     background-color: rgb(255,28,28);
 }
@@ -269,7 +273,9 @@ li{
 
 .header-list li{
     display: inline;
+    font-size: 23px;
     padding: 0 22px;
+    color: rgb(49, 49, 49);
 }
 
 .logo{
@@ -302,14 +308,14 @@ li{
 }
 
 h1{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 800;
     padding: 30px 0;
 }
 
 p, span{
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 .p-sec-40, .btn-sec-40{
@@ -332,7 +338,7 @@ img{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 44px;
 }
 
 label{
@@ -362,7 +368,7 @@ input[type="radio"]{
 }
 
 .min-height{
-    min-height: 1200px;
+    min-height: 1300px;
 }
 
 .card-top p{
@@ -375,7 +381,7 @@ hr{
 }
 
 h4{
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .cost{
@@ -401,7 +407,7 @@ h4{
 
 h6{
     margin-top: 50px;
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .fa-check{
