@@ -201,6 +201,10 @@
     padding: 100px 0;
 }
 
+.pd-150{
+    padding: 150px 0;
+}
+
 .pd-bottom-100{
     padding-bottom: 100px;
 }
@@ -227,14 +231,6 @@
 
 .bg-gold{
     background-color: rgb(255,216,48);
-}
-
-.bg-lightgray{
-    background-color: lightgray;
-}
-
-.bg-pink{
-    background-color: pink;
 }
 
 .bg-lightblue{
@@ -282,13 +278,21 @@ li{
 }
 
 .btn{
-    padding: 10px 20px;
+    padding: 15px 30px;
     font-size: 24px;
     border: none;
 }
 
+.btn-card{
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 22px;
+    border: none;
+}
+
 .btn-blue{
-    background-color: rgb(57, 57, 255);
+    background-color: rgb(0, 97, 255);
     color: white;
 }
 
@@ -318,12 +322,13 @@ img{
 
 .img-jumbo{
     position: absolute;
-    bottom: -70px;
+    bottom: -65px;
 }
 
 .fa-arrow-down{
     font-size: 48px;
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 h2{
@@ -352,21 +357,12 @@ input[type="radio"]{
     padding: 25px;
 }
 
-.right{
-    margin-right: 20px;
-}
-
-.middle{
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.left{
-    margin-left: 20px;
+.fa-user, .fa-users, .fa-folder, .fa-share-nodes, .fa-check{
+    padding-right: 10px;
 }
 
 .min-height{
-    min-height: 1100px;
+    min-height: 1200px;
 }
 
 .card-top p{
@@ -375,7 +371,7 @@ input[type="radio"]{
 }
 
 hr{
-    border-color: gray;
+    border-color: rgb(182,182,182);
 }
 
 h4{
@@ -436,12 +432,12 @@ h6{
 }
 
 .faq-title{
-    padding: 50px 0;
+    padding: 60px 0;
     margin-top: 20px;
 }
 
 .faq{
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 .footer-title{
