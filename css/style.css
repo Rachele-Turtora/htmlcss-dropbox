@@ -7,16 +7,9 @@
 
 /* LAYOUT CLASSES */
 
-.background{
+.container{
     width: 100%;
 }
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
 .lg-container{
     max-width: 1400px;
     margin: 0 auto;
@@ -25,6 +18,15 @@
 .sm-container{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-10{
+    width: 10%;
 }
 
 .col-20{
@@ -47,8 +49,22 @@
     width: 60%;
 }
 
+.col-90{
+    width: 90%;
+}
+
 .col-100{
     width: 100%;
+}
+
+.square{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.sm-square{
+    width: 50%;
+    height: 50%;
 }
 
 /* END LAYOUT CLASSES */
@@ -70,6 +86,10 @@
 
 .align-center{
     align-items: center;
+}
+
+.d-block{
+    display: block;
 }
 
 .text-right{
@@ -128,6 +148,10 @@
     margin: 30px 0;
 }
 
+.mg-50{
+    margin: 50px 0;
+}
+
 .mg-top-40{
     margin-top: 40px;
 }
@@ -142,6 +166,10 @@
 
 .pd-50{
     padding: 50px;
+}
+
+.pd-80{
+    padding: 100px 0;
 }
 
 .bg-red{
@@ -166,6 +194,10 @@
 
 .bg-pink{
     background-color: pink;
+}
+
+.bg-brown{
+    background-color: brown;
 }
 
 .bg-black{
@@ -298,17 +330,13 @@ h4{
     padding: 10px 0;
 }
 
-.card-bottom button{
-    display: block;
-}
-
 #link{
     display: inline-block;
     padding: 30px 0 40px 0;
 }
 
 .small{
-    width: 30%;
+    width: 20%;
 }
 
 h6{
@@ -332,4 +360,21 @@ h6{
 
 .operations-title{
     margin: 10px 0 30px 0;
+}
+
+.designit{
+    width: 50%;
+}
+
+.h2-free-trial{
+    color: brown;
+}
+
+.faq-title{
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.faq{
+    padding: 30px 0;
 }
