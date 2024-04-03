@@ -76,6 +76,10 @@
     display: flex;
 }
 
+.d-wrap{
+    flex-wrap: wrap;
+}
+
 .justify-between{
     justify-content: space-between;
 }
@@ -198,6 +202,10 @@
 
 .bg-pink{
     background-color: pink;
+}
+
+.bg-blue{
+    background-color: blue;
 }
 
 .bg-brown{
@@ -396,4 +404,12 @@ h6{
 
 .footer-list li{
     padding: 10px 0;
+}
+
+.img-square{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
